@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				healing: {
+					DEFAULT: 'hsl(var(--healing))',
+					foreground: 'hsl(var(--healing-foreground))'
+				},
+				growth: 'hsl(var(--growth))',
+				hope: 'hsl(var(--hope))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +72,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-success': 'var(--gradient-success)',
+				'gradient-healing': 'var(--gradient-healing)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'success': 'var(--shadow-success)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
